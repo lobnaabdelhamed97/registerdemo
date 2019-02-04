@@ -16,7 +16,9 @@ function validation()
         name.focus(); 
         return false; 
     } 
-       
+    else if ((password.length) < 8) {
+    alert("Password should atleast 8 character in length");
+    }
      else if(map[name].value != password)
                            
     { 
